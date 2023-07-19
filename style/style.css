@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+header {
+    background: lightgray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logo img {
+    width: 80px;
+
+}
+
+.login {
+    background: rgb(51, 165, 51);
+    color: white;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.logout {
+    background: red;
+    color: white;
+    display: none;
+
+}
+
+.register {
+    background: rgb(62, 62, 197);
+    color: white;
+
+}
+
+.card {
+    background-color: rgb(247, 245, 245);
+    width: 200px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card img :hover {
+    transform: scale(1, 1);
+    transition: (0.3);
+}
+
+.det .addbtn {
+    background: black;
+    color: white;
+}
+
+.det {
+    background-color: black;
+    color: white;
+}
+
+.addsetion form {
+    width: 300px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.8rem;
+    background-color: rgb(239, 236, 236);
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.addsetion form input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+.deletebtn {
+    background-color: red;
+    color: white;
+    position: absolute;
+    padding: 10px;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+}
+
+.addbtn {
+    background-color: black;
+    color: white;
+}
+.delete{
+    background-color: red;
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    right: 5px;
+    top: 10px;
+    z-index: 1;
+}
